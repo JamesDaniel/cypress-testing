@@ -2,7 +2,20 @@
   "name": "cypress-testing",
   "version": "1.0.0",
   "license": "ISC",
+  "scripts": {
+    "cypress:open": "bash init.sh ; node set-projectid.js && CYPRESS_RECORD_KEY=$(node key.js) && bash open.sh",
+    "cypress:run": "bash run.sh",
+    "cypress:info": "bash info.sh"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "node .githooks/pre-commit.js"
+    }
+  },
   "dependencies": {
     "eslint": "^7.18.0"
+  },
+  "devDependencies": {
+    "husky": "^4.3.8"
   }
 }

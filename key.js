@@ -1,0 +1,1 @@
+console.log(require('./secrets.json').key);

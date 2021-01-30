@@ -9,3 +9,5 @@ docker run -it \
   -e DISPLAY \
   --entrypoint cypress \
   cypress/included:6.3.0 open --project .
+
+node reset-projectid.js
