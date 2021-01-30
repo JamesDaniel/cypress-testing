@@ -1,0 +1,8 @@
+{
+  "name": "cypress-testing",
+  "version": "1.0.0",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^7.18.0"
+  }
+}
