@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "license": "ISC",
   "scripts": {
-    "cypress:open": "bash init.sh ; node set-projectid.js && CYPRESS_RECORD_KEY=$(node key.js) && bash open.sh",
-    "cypress:run": "bash run.sh",
+    "test:before": "bash init.sh ; node set-projectid.js",
+    "cypress:open": "npm run test:before && CYPRESS_RECORD_KEY=$(node key.js) && bash open.sh",
+    "cypress:run": "npm run test:before && CYPRESS_RECORD_KEY=$(node key.js) && bash run.sh",
     "cypress:info": "bash info.sh"
   },
   "husky": {
