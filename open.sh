@@ -1,6 +1,6 @@
 #!/bin/bash
 docker rm cypress-open
-DISPLAY=:0
+DISPLAY=$DISPLAY
 docker run -it \
   --name cypress-open \
   -v $PWD:/e2e \

@@ -6,6 +6,7 @@ An example of a dockerized cypress test suite with test recording in cypress.io 
 
  - https://github.com/cypress-io/cypress-docker-images
  - https://docs.cypress.io/guides/getting-started/installing-cypress.html#System-requirements
+ - https://superuser.com/questions/310197/how-do-i-fix-a-cannot-open-display-error-when-opening-an-x-program-after-sshi
  - https://github.com/JamesDaniel/console-log-styling
  - https://github.com/JamesDaniel/git-hooks
  - https://github.com/JamesDaniel/docker-hello-world
